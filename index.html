@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Registro Vehicular</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+
+            <div class="contenedor-imagenes">
+                <h2>Seleccione un vehiculo para su registro</h2>
+                <a href="#" class="btn1 vehicle-btn" ><img src="./img/moto.png" alt="formulario-moto"
+                        class="img1"></a>
+                <a href="#" class="btn2 vehicle-btn" ><img src="./img/automovil.png"
+                        alt="formulario-auto" class="img2"></a>
+                <a href="#" class="btn3 vehicle-btn" ><img src="/img/camioneta.png"
+                        alt="formulario-camioneta" class="img3"></a>
+                <a href="#" class="btn4 vehicle-btn" ><img src="/img/camion.png" alt="formulario-camion"
+                        class="img4"></a>
+            </div>
+        </section>
+         <section class="form-box">
+            <div class="container">
+                <header2>Datos Del Propietario</header2>
+        
+                <form action="#">
+                    <div class="form first">
+                        <div class="details personal">
+                            <span class="title">Datos Personales</span>
+        
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Nombres:</label>
+                                    <input type="text" placeholder="Ingresar sus nombres completos" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Fecha de Nacimiento</label>
+                                    <input type="date" placeholder="Ingresar su fecha de nacimiento" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Email</label>
+                                    <input type="text" placeholder="Ingrese su email" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Celular</label>
+                                    <input type="number" placeholder="Ingrese numero telefonico" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Genero</label>
+                                    <select required>
+                                        <option disabled selected>Selecione el Genero</option>
+                                        <option>Masculino</option>
+                                        <option>Femenino</option>
+                                        <option>deseo no especificar</option>
+                                    </select>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Ocupacion</label>
+                                    <input type="text" placeholder="Ingrese su ocupacion" required>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="details ID">
+                            <span class="title">Registro de Automovil</span>
+        
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Placa</label>
+                                    <input type="text" placeholder="Ingresar la placa" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Id chasis</label>
+                                    <input type="number" placeholder="Ingresar la id de chasis" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Marca</label>
+                                    <input type="text" placeholder="Ingrese la marca" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Modelo</label>
+                                    <input type="text" placeholder="Ingrese el modelo" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Fecha de Fabricacion</label>
+                                    <input type="date" placeholder="ingrese la fecha" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Fecha de Expiracion Matricula</label>
+                                    <input type="date" placeholder="Ingrese la fecha" required>
+                                </div>
+                            </div>
+        
+                            <button class="nextBtn">
+                                <span class="btnText">Registrar</span>
+                                <i class="uil uil-navigator"></i>
+                            </button>
+                        </div> 
+                    </div>
+                            </div>
+                        </div> 
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-pie">
+            <div class="contenido-pie">
+                <h4>Telefono</h4>
+                <p>0991069144</p>
+            </div>
+            <div class="contenido-pie">
+                <h4>Email</h4>
+                <p>ernesto-d1@hotmail.com</p>
+            </div>
+        </div>
+        <h2 id="desarrollador" class="credito"> Yanelly Arteaga │ Ernesto Serrano</h2>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
