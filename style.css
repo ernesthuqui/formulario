@@ -15,9 +15,11 @@ header {
   height: 60px;
   background-color: #5a5c90;
   text-align: center;
+  color: #fff;
 }
 .contenedor-imagenes {
   background-color: #9a9db5;
+  color: #fff;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -143,6 +145,7 @@ footer {
 }
 
 .contenido-pie p {
+  height: 25px;
   color: #9e9797;
 }
 
